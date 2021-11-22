@@ -5,15 +5,12 @@ const assertEqual = function(actual, expected) {
     console.log(`👎Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-const head = function(items){
-
-  if (items.len === 0){
+const head = function(items) {
+  if (items.length === 0) {
     return undefined;
   }
-  //let firstItem = items[0]
-  //console.log(firstItem); 
   return items[0];
-}
+};
 
 assertEqual(head([5,6,7]), 5);
 assertEqual(head([5,6,7]), 7);
