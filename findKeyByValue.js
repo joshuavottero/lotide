@@ -38,5 +38,6 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, undefined), undefined);
 const empty = {};
 assertEqual(findKeyByValue(empty, undefined), undefined);
 assertEqual(findKeyByValue(empty, "not empty"), undefined);
+module.exports = findKeyByValue;
 
 

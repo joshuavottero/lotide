@@ -50,3 +50,5 @@ const test2 = {
 };
 
 assertEqual(findKey(test2, x => eqArray(x.nums, [2,3,1])), "line2");
+
+module.exports = findKey;

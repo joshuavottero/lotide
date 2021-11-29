@@ -53,3 +53,4 @@ const data3 = [true, false, true];
 const results3 = takeUntil(data3, x => x === false);
 console.log(results3);
 assertArraysEqual(results3,[true]);
+module.exports = takeUntil;

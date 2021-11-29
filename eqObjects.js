@@ -85,3 +85,4 @@ const cc = {c: "1", d: []};
 const dd = {d: [], c: "1"};
 assertEqual(eqObjects(cc, dd), true);
 
+module.exports = eqObjects;

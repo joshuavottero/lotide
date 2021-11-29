@@ -53,3 +53,4 @@ const notSoEmptty = [[], [] ,["something"]];
 const results4 = map(notSoEmptty, word => word[0]);
 console.log(results4);
 assertArraysEqual(results4,[undefined, undefined, "something"]);
+module.exports = map;
